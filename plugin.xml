@@ -3,28 +3,28 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         id="com.jcesarmobile.ocrplugin"
         version="0.1.0">
-    <name>OCRPlugin</name>
+    <name>ocrplugin</name>
     <description>Cordova OCR Plugin</description>
     <license>MIT</license>
     <keywords>cordova,ocr</keywords>s
 
 
-    <js-module src="www/OCRPlugin.js" name="OCRPlugin">
-        <clobbers target="window.OCRPlugin" />
+    <js-module src="www/ocrplugin.js" name="ocrplugin">
+        <clobbers target="window.ocrplugin" />
     </js-module>
 
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="com.jcesarmobile.ocrplugin">
-                <param name="ios-package" value="OCRPlugin" />
+                <param name="ios-package" value="ocrplugin" />
             </feature>
         </config-file>
 
         <header-file src="src/claseAuxiliar.h" target-dir="." />
         <source-file src="src/claseAuxiliar.mm" target-dir="." />
-        <header-file src="src/OCRPlugin.h" target-dir="." />
-        <source-file src="src/OCRPlugin.m" target-dir="." />
+        <header-file src="src/ocrplugin.h" target-dir="." />
+        <source-file src="src/ocrplugin.m" target-dir="." />
         <!--
                 <source-file src="dependencies/include/leptonica/allheaders.h" target-dir="dependencies/include/leptonica" />
                 <source-file src="dependencies/include/leptonica/alltypes.h" target-dir="dependencies/include/leptonica" />

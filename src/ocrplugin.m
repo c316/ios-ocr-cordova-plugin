@@ -1,16 +1,16 @@
 //
-//  OCRPlugin.m
+//  ocrplugin.m
 //  pruebaTesseract
 //
 //  Created by Admin on 09/06/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "OCRPlugin.h"
+#import "ocrplugin.h"
 #import "claseAuxiliar.h"
 #import <Cordova/CDVPluginResult.h>
 
-@implementation OCRPlugin
+@implementation ocrplugin
 @synthesize callbackID;
 
 

@@ -1,5 +1,5 @@
 //
-//  OCRPlugin.h
+//  ocrplugin.h
 //  pruebaTesseract
 //
 //  Created by Admin on 09/06/12.
@@ -8,7 +8,7 @@
 #import <Cordova/CDV.h>
 @class claseAuxiliar;
 
-@interface OCRPlugin : CDVPlugin 
+@interface ocrplugin : CDVPlugin
 
 @property (nonatomic, copy) NSString* callbackID;
 
